@@ -1,0 +1,48 @@
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main {
+  font-family: 'bree serif';
+  color: #d30000;
+  font-size: 45px;
+}
+.icon {
+  color: #d30000;
+}
+.nf {
+  margin-bottom: 60px;
+}
+.notification-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #64748b;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 500px;
+}
+.circle {
+  align-self: flex-start;
+
+  margin-top: 13px;
+  margin-right: 15px;
+  color: #2dca73;
+}
+.close {
+  margin-left: 95px;
+}
+.head {
+  color: #2dca73;
+}
+.error {
+  color: #d30000;
+}
+.warning {
+  color: #ffb800;
+}
+.info {
+  color: #0f81e0;
+}
